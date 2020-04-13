@@ -1,0 +1,36 @@
+:root {
+    --units: ;
+}
+
+div.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(var(--units), 1fr);
+    grid-template-rows: repeat(var(--units), 1fr);
+    width: 960px;
+    height: 800px;
+    margin: 10px auto;
+}
+
+div.grid {
+    background-color: aqua;
+}
+
+div.coloredDiv {
+    background-color: blue;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+
+div.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h1 {
+    width: 500px;
+}
